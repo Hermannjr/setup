@@ -26,10 +26,9 @@ if [ -d ./dotfiles/ ]; then
     mv dotfiles dotfiles.old
 fi
 git clone https://github.com/Hermannjr/dotfiles.git
-ln -sb dotfiles/.screenrc .
+ln -sb dotfiles/.tmux conf .
 ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sb dotfiles/.vimrc
-ln -sf dotfiles/.vim .
-
+ln -sd .vim dotfiles/.vim
