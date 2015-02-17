@@ -6,4 +6,4 @@ sudo apt-get install -y git-core
 curl https://raw.githubusercontent.com/Hermannjr/spf13-vim/3.0/bootstrap.sh -L -o - | sh
 
 # change the color scheme post-installation
-echo colorscheme ir_black >> .vimrc.local
+echo colorscheme molokai >> .vimrc.local
